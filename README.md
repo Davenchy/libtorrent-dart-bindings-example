@@ -4,6 +4,8 @@
 
 Hello there! Welcome to this example project demonstrating how to create LibTorrent bindings for the Dart language. I hope you find it helpful and informative.
 
+![Output Example](screenshot.png)
+
 ## Requirements
 
 Before diving in, make sure you have the following prerequisites installed:
@@ -33,6 +35,12 @@ make build
 Once you've built the wrapper library, follow these steps to run the example project:
 
 1. Copy the library file `libwrapper.so` into the Dart project directory.
+2. Get dart packages
+
+```sh
+dart pub get
+```
+
 2. Run the project using the following command:
 
 ```sh
