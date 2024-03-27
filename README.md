@@ -1,18 +1,24 @@
 # LibTorrent Dart Bindings Example
 
+## Introduction
+
+Hello there! Welcome to this example project demonstrating how to create LibTorrent bindings for the Dart language. I hope you find it helpful and informative.
+
 ## Requirements
+
+Before diving in, make sure you have the following prerequisites installed:
 
 - Ensure libtorrent shared library is installed on your system and recognized by the compiler using the flag `-ltorrent-rasterbar`.
 - If you have libtorrent source files in a custom path, update the `wrapper/Makefile` accordingly.
-- [Dart SDK](https://dart.dev/get-dart)
+- You'll also need to have the [Dart SDK](https://dart.dev/get-dart) installed.
 
 ## Makefile
 
-- The `wrapper/Makefile` contains the following rules:
+- The `wrapper/Makefile` contains various useful rules to streamline the development process:
 
-1. **debug**: Builds a test binary with gdb flag for testing.
-2. **run**: Similar to `debug` but runs the binary after build.
-3. **build**: Builds the wrapper library `libwrapper.so` by default.
+1. **debug**: Builds a test binary with gdb flag enabled for testing/debugging process.
+2. **run**: Similar to `debug`, but it also runs the binary after building.
+3. **build**: This rule is responsible for building the wrapper library: `libwrapper.so` by default.
 
 ## Build the Wrapper Library
 
@@ -24,16 +30,20 @@ make build
 
 ## Run the Example Project
 
-- Copy the library file `libwrapper.so` into the dart project directory.
-- Then run the project:
+Once you've built the wrapper library, follow these steps to run the example project:
+
+1. Copy the library file `libwrapper.so` into the Dart project directory.
+2. Run the project using the following command:
 
 ```sh
 dart run
 ```
 
-## Resources
+## Additional Resources
 
-### LibTorrent
+If you want to dive deeper into LibTorrent, here are some helpful resources:
+
+### LibTorrent Documentation
 
 - [LibTorrent Tutorial](https://www.libtorrent.org/tutorial-ref.html)
 - [Settings Pack](https://www.libtorrent.org/reference-Settings.html#settings_pack)
@@ -53,4 +63,4 @@ dart run
 
 ## Contribution
 
-**Feel free to fork or create pull requests**
+Feel free to fork this project or create pull requests if you'd like to contribute. **Your feedback and contributions are highly appreciated!**
