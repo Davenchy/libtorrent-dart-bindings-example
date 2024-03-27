@@ -1,4 +1,4 @@
-# LibTorrent Dart Bindings Tutorial
+# LibTorrent Dart Bindings Example
 
 ## Requirements
 
