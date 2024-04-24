@@ -6,6 +6,10 @@ Hello there! Welcome to this example project demonstrating how to create LibTorr
 
 ![Output Example](screenshot.png)
 
+## Why??
+
+Everything started from here [https://github.com/dart-lang/native/issues/218](https://github.com/dart-lang/native/issues/218)
+
 ## Requirements
 
 Before diving in, make sure you have the following prerequisites installed:
