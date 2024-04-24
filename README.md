@@ -73,6 +73,15 @@ If you want to dive deeper into LibTorrent, here are some helpful resources:
 - [C interop using dart:ffi](https://dart.dev/interop/c-interop)
 - [dart-lang repo ffi samples](https://github.com/dart-lang/samples/tree/main/ffi)
 
+### StackOverflow
+
+- [Developing C wrapper API for Object-Oriented C++ code](https://stackoverflow.com/q/2045774/8046862)
+- [How to create a shared library in android and use it in flutter?](https://stackoverflow.com/q/74063116/8046862)
+
+### Other
+
+- [GeeksForGeeks:extern-c-in-c](https://www.geeksforgeeks.org/extern-c-in-c/)
+
 ## Contribution
 
 Feel free to fork this project or create pull requests if you'd like to contribute. **Your feedback and contributions are highly appreciated!**
